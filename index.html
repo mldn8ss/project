@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animal Kingdom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf7f7;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #004d40;
+        }
+        .animal-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+        }
+        .animal-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .animal-card div {
+            padding: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #00796b;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to the Animal Kingdom</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Explore Amazing Animals</h2>
+            <div class="animal-card">
+                <img src="https://via.placeholder.com/150" alt="Lion">
+                <div>
+                    <h3>Lion</h3>
+                    <p>The lion is known as the king of the jungle. They are majestic and powerful big cats that live in Africa and parts of Asia.</p>
+                </div>
+            </div>
+            <div class="animal-card">
+                <img src="https://via.placeholder.com/150" alt="Elephant">
+                <div>
+                    <h3>Elephant</h3>
+                    <p>Elephants are the largest land animals on Earth. They are intelligent, social, and have strong family bonds.</p>
+                </div>
+            </div>
+            <div class="animal-card">
+                <img src="https://via.placeholder.com/150" alt="Dolphin">
+                <div>
+                    <h3>Dolphin</h3>
+                    <p>Dolphins are highly intelligent marine mammals known for their playful behavior and friendly nature.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Animal Kingdom</p>
+    </footer>
 </body>
 </html>
